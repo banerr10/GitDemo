@@ -35,6 +35,7 @@ public class HomepageTest extends base{
 	hp.emailOrPhone().sendKeys(username);
 	hp.createpassword().sendKeys(password);
 	System.out.println(text);
+	System.out.println("modified for git example");
 	String currentpageid=hp.pageHandleId();
 	System.out.println("page id of homepage is: "+currentpageid);
 	Assert.assertTrue(hp.getNavigationBar().isDisplayed());//to check if the navigation bar is diplayed on the page
