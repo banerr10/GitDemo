@@ -25,5 +25,6 @@ public class flightDestinations extends base {
 		String pageTitle=driver.getTitle();
 		System.out.println(pageTitle);
 		log.fatal("this is a sample fatal msg");
+		System.out.println("example for git to pull");
 }
 }
