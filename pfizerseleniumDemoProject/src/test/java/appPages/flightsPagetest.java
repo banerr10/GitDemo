@@ -47,6 +47,7 @@ Assert.assertEquals(fp.searchButton().getText(), "SEARCH");//verify whther the r
 	@Test
 	public void checkGitdemo(){
 		System.out.println("new add from gitstuff");	
+		System.out.println("last add from gitstuff");
 	}
 	
 }
