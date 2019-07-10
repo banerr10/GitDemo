@@ -34,8 +34,10 @@ public class HomepageTest extends base{
 	hp.createnewaccount().click();
 	hp.emailOrPhone().sendKeys(username);
 	hp.createpassword().sendKeys(password);
+	System.out.println("change example for git to check branches");
+	System.out.println("change example for git to check branches develop");
+	System.out.println("change example for gitDemo dvelop msg");
 	System.out.println(text);
-	System.out.println("modified for git example");
 	String currentpageid=hp.pageHandleId();
 	System.out.println("page id of homepage is: "+currentpageid);
 	Assert.assertTrue(hp.getNavigationBar().isDisplayed());//to check if the navigation bar is diplayed on the page

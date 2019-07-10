@@ -42,5 +42,6 @@ Assert.assertEquals(fp.searchButton().getText(), "SEARCH");//verify whther the r
 		driver.get(prop.getProperty("flightsPageUrl"));
 		flightPageObjects fp=new flightPageObjects(driver);
 		driver.findElement(By.linkText("Domestic Flights")).click();
+		System.out.println("from gitDemo develop msg");
 	}
 }
